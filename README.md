@@ -1,4 +1,4 @@
-# :copyright: electron + node + express + pug + scss boilerplate 💜
+# :copyright: Electron Boilerplate 💜
 
 An Electron boilerplate project for development with node.js, express, pug and scss
 
