@@ -18,7 +18,7 @@ An Electron boilerplate project for development with node.js, express, pug and s
 
 ```
   $ cp .env.example .env
-	$ npm install
+  $ npm install
   $ npm run electron:start
 ```
 
