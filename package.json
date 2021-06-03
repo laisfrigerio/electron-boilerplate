@@ -1,0 +1,30 @@
+{
+  "name": "clinica-life-electron",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon --watch . --exec 'electron electron.js'",
+    "electron:start": "webpack --mode development --config webpack.config.dev.js && npm run server",
+    "start": "node ./src/server.js"
+  },
+  "keywords": [],
+  "author": "Lais Frigério da Silva",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "electron": "^13.1.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7",
+    "sass-loader": "^12.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-merge": "^5.7.3"
+  }
+}

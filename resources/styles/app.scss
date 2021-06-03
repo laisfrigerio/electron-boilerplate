@@ -1,0 +1,16 @@
+@import './general/reset';
+
+a {
+	color: #005b96;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.wrapper {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
